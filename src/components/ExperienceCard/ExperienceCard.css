@@ -1,0 +1,44 @@
+.excard {
+    background-color: rgba(255, 255, 255, 0);
+    transition: all 0.2s ease;
+    cursor: pointer;
+    font-size: .875rem;
+}
+
+.excard:hover {
+    color: rgb(102, 255, 232);
+}
+
+.extitle {
+    font-size: 1rem;
+    margin-bottom: 0;
+}
+
+.url-icon {
+    width: 15px;
+    margin-left: 3px;
+    position: absolute;
+    bottom: 2px;
+    transform: translate(0, 0);
+    transition: transform 0.2s ease;
+}
+
+.excard:hover .url-icon {
+    transform: translate(5px, -5px);
+}
+
+@media screen and (min-width: 768px) {
+    .exp-cards:has(.excard:hover) .excard {
+        opacity: 0.5;
+    }
+
+    .excard:hover {
+        opacity: 1 !important;
+        background-color: rgba(255, 255, 255, 0.041);
+        box-shadow:
+            0 8px 32px rgba(0, 0, 0, 0.05),
+            inset 0 1px 0 rgba(255, 255, 255, 0.07),
+            inset 0 -1px 0 rgba(255, 255, 255, 0.05),
+            inset 0 0 0px 0px rgba(255, 255, 255, 0);
+    }
+}

@@ -1,0 +1,22 @@
+.det-container {
+    font-size: .875rem;
+}
+
+.det-title-container {
+    position: relative;
+}
+
+.det-title {
+    font-size: 1rem;
+    color: #fff;
+    text-decoration: none;
+    transition: all 0.2s ease;
+}
+
+.det-title:hover {
+    color: rgb(102, 255, 232);
+}
+
+.det-title:hover .url-icon {
+    transform: translate(5px, -5px);
+}

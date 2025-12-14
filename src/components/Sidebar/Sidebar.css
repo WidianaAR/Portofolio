@@ -1,0 +1,43 @@
+.sidebar {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.sidebar a {
+    text-decoration: none;
+    transition: all .1s ease;
+    color: rgba(229, 224, 255, 0.5);
+    display: flex;
+    align-items: center;
+    width: fit-content;
+    font-size: .75rem;
+    font-weight: bold;
+    letter-spacing: .1em;
+    font-weight: 700;
+    line-height: 1rem;
+}
+
+.sidebar .nav-indicator {
+    width: 2rem;
+    background-color: rgba(229, 224, 255, 0.5);
+    display: inline-block;
+    height: 1px;
+    transition: all .1s ease;
+    margin-right: 1rem;
+}
+
+.sidebar a.active {
+    color: white !important;
+}
+
+.sidebar a.active .nav-indicator {
+    width: 4rem !important;
+    background-color: #ffffff !important;
+}
+
+@media screen and (max-width: 768px) {
+    .sidebar {
+        display: none;
+    }
+}

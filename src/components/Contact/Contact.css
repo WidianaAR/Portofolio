@@ -1,0 +1,16 @@
+.contact-container {
+    display: flex;
+    gap: 1rem;
+}
+
+.contact-container svg {
+    width: 1.5rem;
+    height: 1.5rem;
+    color: rgba(229, 224, 255, 0.5);
+    cursor: pointer;
+    transition: all .2s ease;
+}
+
+.contact-container svg:hover {
+    color: white !important;
+}

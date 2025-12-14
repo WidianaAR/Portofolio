@@ -1,0 +1,25 @@
+.modal-dialog-centered {
+    justify-content: center;
+}
+
+.image-modal .modal-content {
+    width: fit-content;
+    background-color: rgba(94, 234, 213, 0.1);
+    color: rgb(102, 255, 232);
+    padding: 1rem;
+    border-radius: 1rem;
+}
+
+.image-modal .modal-content img {
+    max-height: 80vh;
+    max-width: 80vw;
+    width: auto;
+    object-fit: contain;
+    border-radius: 1rem;
+}
+
+@media screen and (max-width: 768px) {
+    .image-modal .modal-content {
+        padding: .5rem;
+    }
+}

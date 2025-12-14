@@ -1,0 +1,26 @@
+const CertificateDataId = [
+    { id: 1, url: '/images/certificate/1.jpg' },
+    { id: 2, url: '/images/certificate/2.png' },
+    { id: 3, url: '/images/certificate/3.png' },
+    { id: 4, url: '/images/certificate/4.png' },
+    { id: 5, url: '/images/certificate/5.png' },
+    { id: 6, url: '/images/certificate/6.png' },
+    { id: 7, url: '/images/certificate/7.png' },
+    { id: 8, url: '/images/certificate/8.png' },
+    { id: 9, url: '/images/certificate/9.png' },
+    { id: 10, url: '/images/certificate/10.png' },
+    { id: 11, url: '/images/certificate/11.png' },
+    { id: 12, url: '/images/certificate/12.png' },
+    { id: 13, url: '/images/certificate/13.png' },
+    { id: 14, url: '/images/certificate/14.png' },
+    { id: 15, url: '/images/certificate/15.png' },
+    { id: 16, url: '/images/certificate/16.png' },
+    { id: 17, url: '/images/certificate/17.png' },
+    { id: 18, url: '/images/certificate/18.png' },
+    { id: 19, url: '/images/certificate/19.png' },
+    { id: 20, url: '/images/certificate/20.png' },
+    { id: 21, url: '/images/certificate/21.jpg' },
+    { id: 22, url: '/images/certificate/22.png' },
+]
+
+export default CertificateDataId;

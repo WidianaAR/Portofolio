@@ -1,0 +1,46 @@
+.toggle-container {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  cursor: pointer;
+}
+
+.toggle-container input {
+  display: none;
+}
+
+.slider {
+  width: 48px;
+  height: 24px;
+  background: #ccc;
+  border-radius: 50px;
+  position: relative;
+  transition: 0.3s;
+}
+
+.slider::before {
+  content: "";
+  width: 20px;
+  height: 20px;
+  background: white;
+  border-radius: 50%;
+  position: absolute;
+  top: 2px;
+  left: 2px;
+  transition: 0.3s;
+}
+
+input:checked + .slider {
+  background: #4caf50;
+}
+
+input:checked + .slider::before {
+  transform: translateX(24px);
+}
+
+.label-text {
+  font-size: 14px;
+  user-select: none;
+}
+  

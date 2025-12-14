@@ -1,0 +1,51 @@
+.procard {
+    background-color: rgba(255, 255, 255, 0);
+    transition: all 0.2s ease;
+    cursor: pointer;
+    font-size: .875rem;
+}
+
+.procard:hover {
+    color: rgb(102, 255, 232);
+}
+
+.protitle {
+    font-size: 1rem;
+    margin-bottom: 7px;
+}
+
+.procard:hover .url-icon {
+    transform: translate(5px, -5px);
+}
+
+.project-image {
+    width: 100%;
+    border: 2px solid rgba(226, 232, 240, .1);
+    transition: all .2s ease;
+}
+
+.procard:hover .project-image {
+    border: 2px solid rgba(226, 232, 240, 0.3);
+}
+
+@media screen and (max-width: 768px) {
+    .project-image {
+        width: 50%;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .project-cards:has(.procard:hover) .procard {
+        opacity: 0.5;
+    }
+
+    .procard:hover {
+        opacity: 1 !important;
+        background-color: rgba(255, 255, 255, 0.041);
+        box-shadow:
+            0 8px 32px rgba(0, 0, 0, 0.05),
+            inset 0 1px 0 rgba(255, 255, 255, 0.07),
+            inset 0 -1px 0 rgba(255, 255, 255, 0.05),
+            inset 0 0 0px 0px rgba(255, 255, 255, 0);
+    }
+}
