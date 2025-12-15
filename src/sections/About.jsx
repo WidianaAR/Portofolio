@@ -28,7 +28,7 @@ function About() {
                         showTooltip={true}
                         displayOverlayContent={true}
                         overlayContent={
-                            <img id="profile-img" src="/images/profile.png" alt="" />
+                            <img id="profile-img" src="/images/profile.svg" alt="" />
                         }
                     />
                     <div className="d-flex flex-column justify-content-around">

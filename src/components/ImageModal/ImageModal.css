@@ -11,15 +11,21 @@
 }
 
 .image-modal .modal-content img {
-    max-height: 80vh;
-    max-width: 80vw;
+    height: 80vh;
     width: auto;
-    object-fit: contain;
+    object-fit: cover;
     border-radius: 1rem;
 }
 
 @media screen and (max-width: 768px) {
     .image-modal .modal-content {
         padding: .5rem;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .image-modal .modal-content img {
+        height: auto;
+        width: 80vw;
     }
 }
