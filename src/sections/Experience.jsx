@@ -13,6 +13,7 @@ function Experience({ isWork }) {
     const [selectedWork, setSelectedWork] = useState(null)
     const workExperience = i18n.language === "id" ? WorkExperienceId : WorkExperienceEn;
     const eduExperience = i18n.language === "id" ? EduExperienceId : EduExperienceEn;
+    const cvFile = i18n.language === "id" ? "CV Widiana Anggreani Rahwal.pdf" : "CV Widiana Anggreani Rahwal (En).pdf";
     const titles = t("titles", { returnObjects: true });
 
     return (
@@ -39,7 +40,7 @@ function Experience({ isWork }) {
                                 />
                             </div>
                         ))}
-                        <a href="/files/cv_widiana_anggreani_rahwal.pdf" className="link-homepage" style={{ marginTop: '0 !important' }} download="cv_widiana_anggreani_rahwal.pdf">
+                        <a href={`/files/${cvFile}`} className="link-homepage" style={{ marginTop: '0 !important' }} download>
                             Download Full Resume
                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="ml-1 inline-block h-4 w-4 shrink-0 -translate-y-px transition-transform group-hover:translate-x-2 group-focus-visible:translate-x-2 motion-reduce:transition-none" aria-hidden="true">
                                 <path fill-rule="evenodd" d="M3 10a.75.75 0 01.75-.75h10.638L10.23 5.29a.75.75 0 111.04-1.08l5.5 5.25a.75.75 0 010 1.08l-5.5 5.25a.75.75 0 11-1.04-1.08l4.158-3.96H3.75A.75.75 0 013 10z" clip-rule="evenodd"></path>

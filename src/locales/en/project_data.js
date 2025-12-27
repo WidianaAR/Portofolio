@@ -1,17 +1,17 @@
-const ProjectDataId = [
+const ProjectDataEn = [
     {
         id: 1,
         url: '/images/simjamu.svg',
         title: 'Internal Quality Assurance System (SIMJAMU)',
-        desc: 'SIMJAMU functions as an information system to manage the entire internal quality assurance process at ITK, including managing standard achievement data and self-evaluation, Excel file management, and supporting quality improvement workflows.',
+        desc: 'SIMJAMU functions as an information system to manage the entire internal quality assurance process at ITK, including managing quality standard achievement data and self-evaluations, handling Excel files, and supporting quality improvement workflows.',
         skills: ['Laravel', 'PHP', 'MySQL', 'HTML/CSS/JS', 'Bootstrap'],
     },
     {
         id: 2,
         url: '/images/DentsHealth.svg',
         title: 'DentsHealth',
-        desc: 'A capstone project application from the Bangkit program that serves as an automatic dental health diagnostic system. The application was built using Kotlin and a Machine Learning model based on Natural Language Processing, and utilizes Google Firebase for ML model deployment in the cloud.',
-        skills: ['Kotlin', 'Python', 'Flask', 'Machine Learning', 'Natural Language Processing', 'Google Firebase'],
+        desc: 'A capstone project application from the Bangkit program that serves as an automated dental health diagnostic system. The application was built using Kotlin and a Machine Learning model based on Natural Language Processing, and utilizes Google Firebase for ML model deployment in the cloud.',
+        skills: ['Kotlin', 'Python', 'Flask', 'Machine Learning', 'Naural Language Processing', 'Google Firebase'],
     },
     {
         id: 3,
@@ -24,21 +24,21 @@ const ProjectDataId = [
         id: 4,
         url: '/images/cisa.svg',
         title: 'CISA',
-        desc: 'Covid-19 Information and Self Check Up Application is an application where users can access information about COVID-19, referral hospitals, emergency contacts, and several self-assessment tests to help determine whether they are indicated for COVID-19.',
+        desc: 'Covid-19 Information and Self Check-Up Application is an application where users can access information about COVID-19, referral hospitals, emergency contacts, and several self-assessment tests to help determine whether they are indicated for COVID-19.',
         skills: ['Python', 'PyQt5.QtCore', 'PyQt5.QtWidgets', 'PyQt5.QtGui'],
     },
     {
         id: 5,
         url: '/images/sikma.svg',
         title: 'SIKMA',
-        desc: 'This application was built using the Laravel framework to store data and process internship (Kerja Praktek) and student internship applications at ITK.',
+        desc: 'This application was developed using the Laravel framework to store data and process internship (KP) and student internship applications at ITK.',
         skills: ['Laravel', 'PHP', 'MySQL', 'HTML/CSS/JS', 'Bootstrap'],
     },
     {
         id: 6,
         url: '/images/gallery.svg',
         title: 'Gallery App',
-        desc: 'A Flutter-based Android application that displays a list of images along with their descriptions. The application uses a responsive layout that adapts optimally to both mobile and web devices.',
+        desc: 'A Flutter-based Android application that displays a list of images along with their descriptions. The application uses a responsive layout that adapts optimally to both mobile and web platforms.',
         skills: ['Flutter', 'Dart', 'Responsive Layout', 'Flutter Web'],
     },
     {
@@ -59,7 +59,7 @@ const ProjectDataId = [
         id: 9,
         url: '/images/restaurant.svg',
         title: 'Restaurant App',
-        desc: 'A Flutter application that displays a list of restaurants. The application includes theme switching (dark/light mode), adding restaurants to a favorites list, and daily reminders running via background services.',
+        desc: 'A Flutter application for displaying a list of restaurants. The application includes theme switching (dark/light mode), adding restaurants to a favorites list, and a daily reminder running via background services.',
         skills: ['Flutter', 'Dart', 'Provider', 'Local Notification'],
     },
     {
@@ -73,23 +73,23 @@ const ProjectDataId = [
         id: 11,
         url: '/images/Hipmi.svg',
         title: 'Hipmi App',
-        desc: 'UI/UX design for the HIPMI Silatama application developed using Figma, focusing on ease of navigation and consistency of the organization’s visual identity.',
+        desc: 'UI/UX design for the HIPMI application created while working at PT. Sila Teknologi Utama. Developed using Figma with a focus on ease of navigation and consistency of the organization’s visual identity.',
         skills: ['Figma', 'UI/UX', 'Flutter'],
     },
     {
         id: 12,
         url: '/images/LajuPos.svg',
         title: 'LajuPos',
-        desc: 'UI/UX design for the LajuPos application created using Figma, focusing on easy tracking, navigation, and a clean, consistent visual design.',
+        desc: 'UI/UX design for the LajuPos application created while working at PT. Sila Teknologi Utama. Developed using Figma with a focus on ease of tracking, navigation, and a clean, consistent visual design.',
         skills: ['Figma', 'UI/UX', 'Flutter'],
     },
     {
         id: 13,
         url: '/images/iot.svg',
         title: 'RFID Access System',
-        desc: 'An RFID-based access system using Arduino Mega as the microcontroller. Users can unlock the device by tapping a registered RFID card. The system reads card UIDs using an RC522 module and responds with servo movement or buzzer sounds to indicate whether access is granted or denied.',
+        desc: 'An RFID-based access system using Arduino Mega as the microcontroller. Users can unlock the device by tapping a registered RFID card. The system reads the card UID using the RC522 module and responds with servo movement or a buzzer sound to indicate whether access is granted or denied.',
         skills: ['Arduino', 'RFID', 'Servo Motor', 'Buzzer', 'IoT'],
     },
 ]
 
-export default ProjectDataId;
+export default ProjectDataEn;

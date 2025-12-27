@@ -1,4 +1,4 @@
-const CertificateDataId = [
+const CertificateDataEn = [
     { id: 1, url: '/images/certificate/1.svg' },
     { id: 2, url: '/images/certificate/2.svg' },
     { id: 3, url: '/images/certificate/3.svg' },
@@ -23,4 +23,4 @@ const CertificateDataId = [
     { id: 22, url: '/images/certificate/22.svg' },
 ]
 
-export default CertificateDataId;
+export default CertificateDataEn;

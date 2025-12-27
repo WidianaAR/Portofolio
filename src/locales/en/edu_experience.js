@@ -1,4 +1,4 @@
-const EduExperienceId = [
+const EduExperienceEn = [
     {
         id: 1,
         duration: '2019 - 2023',
@@ -33,4 +33,4 @@ const EduExperienceId = [
     },
 ]
 
-export default EduExperienceId;
+export default EduExperienceEn;

@@ -73,14 +73,14 @@ const ProjectDataId = [
         id: 11,
         url: '/images/Hipmi.svg',
         title: 'Hipmi App',
-        desc: 'Desain UI/UX aplikasi HIPMI Silatama yang dikembangkan menggunakan Figma dengan fokus pada kemudahan navigasi dan konsistensi identitas visual organisasi.',
+        desc: 'Desain UI/UX aplikasi HIPMI yang dibuat selama bekerja di PT.Sila Tekologi Utama. Dikembangkan menggunakan Figma dengan fokus pada kemudahan navigasi dan konsistensi identitas visual organisasi.',
         skills: ['Figma', 'UI/UX', 'Flutter'],
     },
     {
         id: 12,
         url: '/images/LajuPos.svg',
         title: 'LajuPos',
-        desc: 'Desain UI/UX aplikasi LajuPos yang dibuat menggunakan Figma, dengan fokus pada kemudahan tracking, navigasi, dan visual yang bersih serta konsisten.',
+        desc: 'Desain UI/UX aplikasi HIPMI yang dibuat selama bekerja di PT.Sila Tekologi Utama. Dikembangkan menggunakan Figma, dengan fokus pada kemudahan tracking, navigasi, dan visual yang bersih serta konsisten.',
         skills: ['Figma', 'UI/UX', 'Flutter'],
     },
     {
