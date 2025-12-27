@@ -1,8 +1,9 @@
 import React, { useCallback, useEffect, useRef, useState } from 'react'
-import useEmblaCarousel from 'embla-carousel-react'
-import Autoplay from 'embla-carousel-autoplay'
 import { NextButton, PrevButton, usePrevNextButtons } from './EmblaCarouselArrowButtons.jsx'
 import { DotButton, useDotButton } from './EmblaCarouselDotButton.jsx'
+import { LazyLoadImage } from "react-lazy-load-image-component";
+import useEmblaCarousel from 'embla-carousel-react'
+import Autoplay from 'embla-carousel-autoplay'
 import ImageModal from "../ImageModal/ImageModal.jsx";
 import './EmblaCarousel.css';
 
@@ -99,10 +100,11 @@ const EmblaCarousel = (props) => {
                         <div className="embla__slide" key={s.id}>
                             <div className="embla__parallax">
                                 <div className="embla__parallax__layer">
-                                    <img
-                                        className="embla__slide__img embla__parallax__img"
+                                    <LazyLoadImage
                                         src={s.url}
-                                        alt="Certificate Image"
+                                        effect="blur"
+                                        wrapperClassName="lazy-wrapper"
+                                        className="embla__slide__img embla__parallax__img"
                                         onClick={() => setSelectedImg(s.url)}
                                         style={{ cursor: 'pointer' }}
                                     />

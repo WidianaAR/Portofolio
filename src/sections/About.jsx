@@ -1,5 +1,6 @@
 import { useTranslation } from "react-i18next";
 import { useTheme } from '@mui/material/styles';
+import { LazyLoadImage } from "react-lazy-load-image-component";
 import TiltedCard from "../components/TiltedCard/TiltedCard";
 
 function About() {
@@ -28,7 +29,7 @@ function About() {
                         showTooltip={true}
                         displayOverlayContent={true}
                         overlayContent={
-                            <img id="profile-img" src="/images/profile.svg" alt="" />
+                            <LazyLoadImage id="profile-img" src="/images/profile.svg" effect="blur" threshold={100} visibleByDefault={false} wrapperClassName="lazy-wrapper" />
                         }
                     />
                     <div className="d-flex flex-column justify-content-around">

@@ -18,8 +18,18 @@
     transform: translate(5px, -5px);
 }
 
+.project-image-container span {
+    width: 100%;
+}
+
+.project-image-container {
+    min-height: 5cap;
+    position: relative;
+}
+
 .project-image {
     width: 100%;
+    height: auto;
     border: 2px solid rgba(226, 232, 240, .1);
     transition: all .2s ease;
 }

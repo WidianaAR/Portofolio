@@ -4,10 +4,10 @@ import CssBaseline from '@mui/material/CssBaseline';
 import { lightTheme, darkTheme } from './config/theme';
 import { Routes, Route } from "react-router-dom";
 
-// import Navbar from "./components/Navbar/Navbar";
 import SpotlightCard from './components/SpotlightCard/SpotlightCard';
 import HomePage from './pages/HomePage';
 import ProjectPage from './pages/ProjectPage';
+import "react-lazy-load-image-component/src/effects/blur.css";
 
 function App() {
   const [isDarkMode, setIsDarkMode] = useState(true);

@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import { Link } from "react-router-dom";
 import { useTranslation } from "react-i18next";
+import { LazyLoadImage } from "react-lazy-load-image-component";
 import SkillBadge from "../components/SkillBadge/SkillBadge";
 import ImageModal from "../components/ImageModal/ImageModal";
 import ProjectDataEn from "../locales/en/project_data";
@@ -33,7 +34,7 @@ function ProjectPage() {
                     {projectData.map((p) => (
                         <tr>
                             <td className="py-3 pr-0 pr-md-3 d-none d-md-table-cell">
-                                <img src={p.url} alt="" width="150px" className="rounded" onClick={() => setSelectedImg(p.url)} />
+                                <LazyLoadImage effect="blur" src={p.url} alt={p.title} width="150px" className="rounded" visibleByDefault={false} wrapperClassName="lazy-wrapper" onClick={() => setSelectedImg(p.url)} />
                             </td>
                             <td className="py-3 pr-0 pr-md-3 d-table-cell project-name">{p.title}</td>
                             <td className="py-3 pr-0 pr-md-3 d-table-cell" style={{ maxWidth: "60vw" }}>{p.desc}</td>

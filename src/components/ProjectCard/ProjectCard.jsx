@@ -1,14 +1,15 @@
+import { useTheme } from '@mui/material/styles';
+import { LazyLoadImage } from "react-lazy-load-image-component";
 import SkillBadge from "../SkillBadge/SkillBadge";
 import './ProjectCard.css';
-import { useTheme } from '@mui/material/styles';
 
 function ProjectCard({ id, url, title, desc, skills, modal }) {
     const theme = useTheme();
 
     return (
         <div className="row m-0 procard py-md-3 p-0 px-md-2 rounded">
-            <div className="col-12 col-md-3 px-0 px-md-2" style={{ paddingTop: "5px" }}>
-                <img src={url} alt="" className="rounded mb-2 project-image" />
+            <div className="col-12 col-md-3 px-0 px-md-2 project-image-container" style={{ paddingTop: "5px" }}>
+                <LazyLoadImage effect="blur" src={url} alt={title} className="rounded mb-2 project-image" threshold={100} visibleByDefault={false} wrapperClassName="lazy-wrapper" />
             </div>
             <div className="col-12 col-md-9 px-0 px-md-2">
                 <div style={{ position: 'relative', width: 'fit-content', marginBottom: '7px' }}>
