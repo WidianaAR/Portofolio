@@ -9,7 +9,6 @@ function Contact() {
             <a target='_blank' href="https://www.linkedin.com/in/widiaangrn/"><FaLinkedin /></a>
             <a target='_blank' href="https://www.instagram.com/widiarhwal"><FaInstagram /></a>
             <a target='_blank' href="mailto:widia.angrn@gmail.com"><MdEmail /></a>
-            <a target='_blank' href="https://wa.me/6285171040705"><FaWhatsapp /></a>
         </div>
     );
 }
