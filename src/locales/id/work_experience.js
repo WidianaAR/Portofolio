@@ -1,7 +1,7 @@
 const WorkExperienceId = [
     {
         id: 1,
-        duration: 'JAN 2024 - SEKARANG',
+        duration: 'JAN 2024 - SEP 2026',
         company: 'PT. Sila Teknologi Utama',
         role: 'Software Developer',
         desc: 'Berkontribusi dalam pengembangan full-stack dan solusi otomasi industri di berbagai sektor, termasuk oil & gas, kesehatan, pendidikan, ritel, dan pariwisata. Lingkup pekerjaan mencakup pengembangan dashboard monitoring dan sistem otomasi, pembangunan fitur website menggunakan Django (autentikasi RBAC, real-time chat, integrasi pembayaran multi-metode, dan scheduler otomatis), serta pengembangan REST API dan aplikasi mobile lintas platform menggunakan Flutter.',

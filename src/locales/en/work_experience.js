@@ -1,7 +1,7 @@
 const WorkExperienceEn = [
     {
         id: 1,
-        duration: 'JAN 2024 - PRESENT',
+        duration: 'JAN 2024 - SEP 2026',
         company: 'PT. Sila Teknologi Utama',
         role: 'Software Developer',
         desc: 'Contributed to full-stack development and industrial automation solutions across multiple sectors, including oil & gas, healthcare, education, retail, and tourism. Responsibilities included developing monitoring dashboards and automation systems, building feature-rich websites using Django (RBAC authentication, real-time chat, multi-method payment integration, and automated schedulers), as well as developing REST APIs and cross-platform mobile applications with Flutter.',
